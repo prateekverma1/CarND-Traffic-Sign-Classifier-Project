@@ -1,0 +1,5 @@
+I used LeNet architecture to train the neural network. 
+Before training the model, I preprocessed the data by normalizing it i.e Subtracted the mean pixel from the image. 
+For training data, mean value of training dataset was subtracted from each image. For test dataset, mean value of test pixel was subtracted from each image.
+For activation relu gave better accuracy that tanh activation.
+And increasing the epoch from 10 to 30 also improved the accuracy without leading to overfitting.
