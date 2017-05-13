@@ -1,5 +1,11 @@
 I used LeNet architecture to train the neural network. 
+
+I chose normalization for preprocessing step to account for high contrast variation between different samples of the images
 Before training the model, I preprocessed the data by normalizing it i.e Subtracted the mean pixel from the image. 
 For training data, mean value of training dataset was subtracted from each image. For test dataset, mean value of test pixel was subtracted from each image.
+
 For activation relu gave better accuracy that tanh activation.
 And increasing the epoch from 10 to 30 also improved the accuracy without leading to overfitting.
+
+The new images had a little distorted brightness and contrast. The accuracy was 92.2% compared with 92.8% with the old dataset.
+
